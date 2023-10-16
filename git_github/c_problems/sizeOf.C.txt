@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main() {
+  int int_size = sizeof(int);
+  int float_size = sizeof(float);
+
+  printf("The size of int in bytes is: %d\n", int_size);
+  printf("The size of float in bytes is: %d\n", float_size);
+
+  return 0;
+}
