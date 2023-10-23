@@ -1,0 +1,17 @@
+#include <math.h>
+#include <stdio.h>
+int main () {
+int number ;
+printf("The number is ?\n");
+scanf("%d",&number);
+   if (number>0) {
+       printf("positive");
+   }
+   else if (number<0){
+       printf("nigative");
+   }
+   else {
+       printf("zero");
+   }
+    
+   }
