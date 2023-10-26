@@ -1,0 +1,25 @@
+#include <stdio.h>
+int main(){
+    float mark ;
+    printf("what is the student's mark ?\n");
+    scanf("%f",&mark);
+    if (mark<50){
+ printf("fail");
+    }
+    if (mark>=50 && mark<65) {
+        printf("pass");
+    }
+    if (mark>=65 && mark<80){
+    printf("good");
+    }
+    if (mark>=80 && mark<90){
+        printf("very good");
+    }
+    
+
+     if (mark>=90){
+     printf("excellent");
+ }
+ 
+
+}

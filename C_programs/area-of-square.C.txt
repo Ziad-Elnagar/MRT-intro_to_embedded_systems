@@ -1,8 +1,0 @@
-#include <stdio.h>
-int main(){
-float Area,District;
-printf("the District of the square ?\n" );
-scanf("%f",&District);
-Area=District*District ;
-printf("the area of the square is:%f",Area) ;
-}
